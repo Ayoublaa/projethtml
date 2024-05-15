@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+#lipstick-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.lipstick {
+    width: 200px;
+    margin: 20px;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.lipstick img {
+    max-width: 100%;
+    height: auto;
+}
+
+.lipstick h2 {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+}
